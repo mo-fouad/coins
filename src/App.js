@@ -18,7 +18,8 @@ class App extends Component {
           <h2>Cryptocurrency converter 
           </h2>
         </Header>
-        <Tickers></Tickers>
+        <Tickers> 
+        </Tickers>
       </div>
     );
   }

@@ -1,7 +1,8 @@
 {
   "name": "coins",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage" : "https://mofouad2011.github.io/coins/",
   "dependencies": {
     "axios": "^0.18.0",
     "react": "^16.7.0",

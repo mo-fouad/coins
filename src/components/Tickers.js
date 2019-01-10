@@ -3,14 +3,20 @@ import styled from 'styled-components'
 import Cryptocurrency from './Cryptocurrency';
 import axios from 'axios';
 
-const TickerCont = styled.div`
-     
+const TickerCont = styled.div` 
 `;
 
-const Tickeritems = styled.div`
-     
+const Tickeritems = styled.div` 
+max-width: 1168px;
+margin:0 auto;
+display: flex;
 `;
 
+const Footer = styled.div `
+    max-width: 1168px;
+    text-align:center;
+    margin:0 auto;
+`
 
 export default class Tickers extends Component {
     constructor(props){
@@ -77,6 +83,9 @@ export default class Tickers extends Component {
         <Tickeritems>
             {tickers}
         </Tickeritems>
+        <Footer>
+          this is based on this tut <a href="https://sabe.io/tutorials/getting-started-with-react">Link</a>
+        </Footer>
       </TickerCont>
     )
   }
